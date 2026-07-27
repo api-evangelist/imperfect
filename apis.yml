@@ -1,7 +1,25 @@
 aid: imperfect
 name: Imperfect
-description: Imperfect is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Imperfect (Imperfect Wellness, Inc.) is a San Francisco-based, Y Combinator-backed (Spring 2026)
+  consumer startup building an adaptive AI training coach for endurance athletes across cycling, trail running,
+  swimming, and other sports. The mobile app connects to a user's wearables and health apps to generate
+  real-time training, recovery, and nutrition recommendations that adapt to how the athlete's body is
+  actually responding day to day, rather than following a static plan written weeks in advance. Founded by
+  Matin Tamizi (previously built and sold two fintech companies and authored a widely used open-source Garmin
+  library used by Stanford Health). Imperfect ships as a consumer mobile application (Google Play) and publishes
+  no public developer API, SDK, or developer portal at this time.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://imperfect.co/icon
 url: https://raw.githubusercontent.com/api-evangelist/imperfect/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,47 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-legal-name: Imperfect Wellness, Inc.
+x-headquarters: 1325 Howard Ave #265, Burlingame, CA 94010, USA
+x-founded: '2026'
+x-founder: Matin Tamizi
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Health
+- Fitness
+- Wellness
+- Sports
+- Artificial Intelligence
+- Coaching
+- Wearables
+- Consumer Apps
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/imperfect-domain-security.yml
+- type: Website
+  url: https://imperfect.co
+- type: Blog
+  url: https://imperfect.co/blog
+- type: SignUp
+  url: https://imperfect.co/app
+- type: TermsOfService
+  url: https://imperfect.co/terms
+- type: PrivacyPolicy
+  url: https://imperfect.co/privacy-policy
+- type: Support
+  url: mailto:privacy@imperfect.co
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
