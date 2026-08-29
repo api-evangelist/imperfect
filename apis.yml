@@ -8,6 +8,17 @@ description: Imperfect (Imperfect Wellness, Inc.) is a San Francisco-based, Y Co
   Matin Tamizi (previously built and sold two fintech companies and authored a widely used open-source Garmin
   library used by Stanford Health). Imperfect ships as a consumer mobile application (Google Play) and publishes
   no public developer API, SDK, or developer portal at this time.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
